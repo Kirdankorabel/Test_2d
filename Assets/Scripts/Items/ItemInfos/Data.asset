@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c09b47805abe224ca03b93857e57714, type: 3}
+  m_Name: Data
+  m_EditorClassIdentifier: 
+  _items: []
+  _equiperments:
+  - _sprite: {fileID: 21300000, guid: b2fb8e8fc416ce8408ae875b807a88d4, type: 3}
+    _prise: 25
+    _name: Axe
+    _description: Axe. It's just an axe.
+    _type: 1
+    _equipmentType: 2
+    _bonus:
+    - bonusType: 1
+      value: 8
+    _weaponType: 1
+  - _sprite: {fileID: 21300000, guid: 74d775527e4324c4fa7318405642405c, type: 3}
+    _prise: 25
+    _name: Sword
+    _description: Weapon of a real knight!
+    _type: 1
+    _equipmentType: 2
+    _bonus:
+    - bonusType: 1
+      value: 6
+    - bonusType: 0
+      value: 6
+    _weaponType: 2
+  - _sprite: {fileID: 21300000, guid: c1aa322209e519a46ab8587dc11358a7, type: 3}
+    _prise: 100
+    _name: ' Steel armor'
+    _description: ' Steel armor'
+    _type: 1
+    _equipmentType: 1
+    _bonus:
+    - bonusType: 0
+      value: 10
+    - bonusType: 2
+      value: 3
+    _weaponType: 0
+  - _sprite: {fileID: 21300000, guid: c1aa322209e519a46ab8587dc11358a7, type: 3}
+    _prise: 50
+    _name: Boots
+    _description: 
+    _type: 1
+    _equipmentType: 3
+    _bonus:
+    - bonusType: 0
+      value: 5
+    - bonusType: 2
+      value: 1
+    _weaponType: 0
+  - _sprite: {fileID: 21300000, guid: c1aa322209e519a46ab8587dc11358a7, type: 3}
+    _prise: 300
+    _name: Khorne axe
+    _description: Blood for the blood god!
+    _type: 1
+    _equipmentType: 2
+    _bonus:
+    - bonusType: 0
+      value: -10
+    - bonusType: 1
+      value: 12
+    - bonusType: 2
+      value: -5
+    _weaponType: 1
+  - _sprite: {fileID: 21300000, guid: c1aa322209e519a46ab8587dc11358a7, type: 3}
+    _prise: 300
+    _name: Bascinet
+    _description: 
+    _type: 1
+    _equipmentType: 0
+    _bonus:
+    - bonusType: 0
+      value: 5
+    - bonusType: 2
+      value: 5
+    _weaponType: 1
+  - _sprite: {fileID: 21300000, guid: c1aa322209e519a46ab8587dc11358a7, type: 3}
+    _prise: 240
+    _name: Dwarf armor
+    _description: 
+    _type: 1
+    _equipmentType: 1
+    _bonus:
+    - bonusType: 0
+      value: 10
+    - bonusType: 2
+      value: 5
+    _weaponType: 0
+  - _sprite: {fileID: 21300000, guid: c1aa322209e519a46ab8587dc11358a7, type: 3}
+    _prise: 180
+    _name: Dark armor
+    _description: 
+    _type: 1
+    _equipmentType: 1
+    _bonus:
+    - bonusType: 0
+      value: 8
+    - bonusType: 2
+      value: 3
+    - bonusType: 1
+      value: 3
+    _weaponType: 0
+  - _sprite: {fileID: 21300000, guid: c1aa322209e519a46ab8587dc11358a7, type: 3}
+    _prise: 70
+    _name: Helmet
+    _description: 
+    _type: 1
+    _equipmentType: 0
+    _bonus:
+    - bonusType: 0
+      value: 5
+    - bonusType: 2
+      value: 1
+    _weaponType: 0
+  - _sprite: {fileID: 21300000, guid: c1aa322209e519a46ab8587dc11358a7, type: 3}
+    _prise: 70
+    _name: Dark helmet
+    _description: 
+    _type: 1
+    _equipmentType: 0
+    _bonus:
+    - bonusType: 0
+      value: 10
+    - bonusType: 2
+      value: 2
+    - bonusType: 1
+      value: 3
+    _weaponType: 0
+  - _sprite: {fileID: 21300000, guid: c1aa322209e519a46ab8587dc11358a7, type: 3}
+    _prise: 270
+    _name: Ladies hatchet
+    _description: 
+    _type: 1
+    _equipmentType: 2
+    _bonus:
+    - bonusType: 1
+      value: 8
+    _weaponType: 1
+  - _sprite: {fileID: 21300000, guid: c1aa322209e519a46ab8587dc11358a7, type: 3}
+    _prise: 270
+    _name: Katana
+    _description: 
+    _type: 1
+    _equipmentType: 2
+    _bonus:
+    - bonusType: 1
+      value: 6
+    - bonusType: 2
+      value: 1
+    _weaponType: 1
+  - _sprite: {fileID: 21300000, guid: c1aa322209e519a46ab8587dc11358a7, type: 3}
+    _prise: 200
+    _name: Dark Glowes
+    _description: 
+    _type: 1
+    _equipmentType: 4
+    _bonus:
+    - bonusType: 1
+      value: 3
+    - bonusType: 2
+      value: 2
+    _weaponType: 0
+  - _sprite: {fileID: 21300000, guid: c1aa322209e519a46ab8587dc11358a7, type: 3}
+    _prise: 100
+    _name: Glowes
+    _description: 
+    _type: 1
+    _equipmentType: 4
+    _bonus:
+    - bonusType: 2
+      value: 2
+    _weaponType: 0
+  - _sprite: {fileID: 21300000, guid: c1aa322209e519a46ab8587dc11358a7, type: 3}
+    _prise: 100
+    _name: Dark Boots
+    _description: 
+    _type: 1
+    _equipmentType: 3
+    _bonus:
+    - bonusType: 2
+      value: 2
+    _weaponType: 0
+  - _sprite: {fileID: 21300000, guid: c1aa322209e519a46ab8587dc11358a7, type: 3}
+    _prise: 200
+    _name: Dwarf boots
+    _description: 
+    _type: 1
+    _equipmentType: 3
+    _bonus:
+    - bonusType: 2
+      value: 3
+    - bonusType: 0
+      value: 5
+    _weaponType: 0
+  _consumables:
+  - _sprite: {fileID: 21300000, guid: b7d19ec039fa7b141bd165aa95496c75, type: 3}
+    _prise: 5
+    _name: Apple
+    _description: Restores 5 HP
+    _type: 2
+    _abilityName: Treat
+    _value: 5
+  - _sprite: {fileID: 21300000, guid: 20c9942f1a67ea64baee2697b8b1653c, type: 3}
+    _prise: 1
+    _name: Money
+    _description: MONEY!!!!
+    _type: 2
+    _abilityName: AddMoney
+    _value: 0
+  - _sprite: {fileID: 21300000, guid: 20c9942f1a67ea64baee2697b8b1653c, type: 3}
+    _prise: 20
+    _name: Potion
+    _description: Restores 15 HP
+    _type: 2
+    _abilityName: Treat
+    _value: 15
+  _images:
+  - sprite: {fileID: 21300000, guid: 172774604c1bee84185a69041576525b, type: 3}
+    name: Axe
+  - sprite: {fileID: 21300000, guid: 08d5ec2d201ece949a5e428ba3ea0e63, type: 3}
+    name: Sword
+  - sprite: {fileID: 21300000, guid: 93b5b28db06f8d2439c780ec3aeb28d2, type: 3}
+    name: Money
+  - sprite: {fileID: 21300000, guid: 60c1d42986dc0094c808b9e135f31ba2, type: 3}
+    name: Apple
+  - sprite: {fileID: 21300000, guid: e420c5bc93cb2604695a893500c897e3, type: 3}
+    name: Boots
+  - sprite: {fileID: 21300000, guid: 28b103e16acf21b45afc90eb7afb7e42, type: 3}
+    name: ' Steel armor'
+  - sprite: {fileID: 21300000, guid: eab93444844589c40a72574411dd0120, type: 3}
+    name: Khorne axe
+  - sprite: {fileID: 21300000, guid: 131ae7d5c3bf62f4ca9d47f57e1ef952, type: 3}
+    name: Dwarf armor
+  - sprite: {fileID: 21300000, guid: 62b4a2f3dff4a9a4ba03a764d5fdd006, type: 3}
+    name: Dark armor
+  - sprite: {fileID: 21300000, guid: b53db54545fcd5747b7ba5e450c07baf, type: 3}
+    name: Helmet
+  - sprite: {fileID: 21300000, guid: 69b6fac54bf33d94f8b56a037beeb7bf, type: 3}
+    name: Dark helmet
+  - sprite: {fileID: 21300000, guid: 896dada9aa8b8444b8145f80381d5fda, type: 3}
+    name: Bascinet
+  - sprite: {fileID: 21300000, guid: 71bd4f726fd131046bf2bde8c724fefe, type: 3}
+    name: Ladies hatchet
+  - sprite: {fileID: 21300000, guid: f2a6caf7b6afd7b4095cfac985b5869c, type: 3}
+    name: Katana
+  - sprite: {fileID: 21300000, guid: 1fc17835ae1807b47ab82fd81ecf71d8, type: 3}
+    name: Dark Glowes
+  - sprite: {fileID: 21300000, guid: a889cb8ba677b3e418c33307c1336099, type: 3}
+    name: Glowes
+  - sprite: {fileID: 21300000, guid: 84d6a36e47e8f9042a960a8b033203a1, type: 3}
+    name: Dark Boots
+  - sprite: {fileID: 21300000, guid: c65e285e2bfa766428d07aef51d7757d, type: 3}
+    name: Dwarf boots
+  - sprite: {fileID: 21300000, guid: b7d19ec039fa7b141bd165aa95496c75, type: 3}
+    name: Potion
+  _moneyName: Money
